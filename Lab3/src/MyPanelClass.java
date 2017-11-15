@@ -37,11 +37,11 @@ public class MyPanelClass extends JPanel {
 //                        g.drawLine(x1, y1, x2, y2);
 //                        g.setColor(Color.RED);
 //                        g.drawLine(x1, y2, x2, y1);
-//                        
+//                        //Draw a color filled oval.
 //                        g.setColor(Color.BLUE);
 //                        g.fillOval((width-55)/2, (height-55)/2, 55, 55);
 //                        
-//                        Draws a color-filled arrow.
+//                        //Draws a color-filled arrow.
 //                        Polygon p = new Polygon();
 //                        p.addPoint(x1 + 5, y1 + 25);
 //                        p.addPoint(x1 + 20, y1 + 10);
@@ -52,7 +52,7 @@ public class MyPanelClass extends JPanel {
 //                        p.addPoint(x1 + 15, y1 + 25);
 //                        g.setColor(Color.YELLOW);
 //                        g.fillPolygon(p);
-                        
+                        //Draws a star shaped polygon.
                         Polygon p2 = new Polygon();
                         p2.addPoint(x1 + 25, y1 + 73);
                         p2.addPoint(x1 + 41, y1 + 73);
